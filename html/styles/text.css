@@ -1,0 +1,50 @@
+p {
+    font-family: roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.judul-title {
+font-size: 25px;
+font-weight: bold;
+width: 350px;
+line-height: 24px;
+margin-bottom: 5px;
+}
+.hastag-paragraf {
+
+font-size: 14px;
+color: #606060;
+margin-bottom: 15px;
+}
+.name-paragraf {
+
+font-size: 14px;
+color: #606060;
+margin-bottom: 20px;
+}
+.deskripsi-paragraf {
+
+font-size: 14px;
+color: #606060;
+width: 350px;
+line-height: 20px;
+margin-bottom: 100px;
+}
+.link-paragraf {
+margin-bottom: 50px;
+font-size: 14px;
+background-color: #e34140;
+color: white;
+text-align: center;
+padding-top: 18px;
+padding-bottom: 18px;
+
+
+}
+.link-teks {
+cursor: pointer;
+margin-left: 8px;
+}
+.link-teks:hover {
+text-decoration: underline;
+}

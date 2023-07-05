@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flexbox practice</title>
+        <style>
+            .flexbox {
+                display: flex;
+                flex-direction: row;
+                height: 70px;
+                margin-bottom: 20px;
+            }
+            .colom1 {
+                background-color: lightpink;
+                width: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .item1 {
+                background-color: black;
+                color: white;
+            }
+            .colom2 {
+                background-color: lightblue;
+                width: 200px;
+            }
+
+            
+            .flexbox2 {
+                display: flex;
+                flex-direction: row;
+                height: 70px;
+            }
+            .colom1-2 {
+                background-color: lightpink;
+                width: 100px;
+            }
+            .colom2-2 {
+                background-color: lightblue;
+                width: 200px;
+                 
+            }
+            .isi-colom {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center
+            }
+            .item2-2 {
+                background-color: black;
+                color: white;
+            }
+            .item3-2 {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <div style="      
+        display: flex;
+        flex-direction: row;
+        ">
+            <div style="background-color: lightblue;">div 1 teks</div>
+            <div style="background-color: lightpink;">div 2 <p>teks</p> </div>
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            
+            ">100px</div>
+            <div style="
+            background-color: lightpink;
+            flex: 1;
+            ">flex 1</div>
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        ">
+            <div style="
+            background-color: lightblue;
+            flex: 1;
+            ">flex 1</div>
+
+            <div style="
+            background-color: lightpink;
+            width: 100px;        
+            ">100px</div>
+
+            <div style="
+            background-color: lightblue;
+            width: 100px;    
+            flex: 2;    
+            ">flex 2</div>
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        flex-direction: row;
+        justify-content: center;
+        ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+
+            <div style="
+            background-color: lightpink;
+            width: 100px;        
+            ">100px</div>
+
+            <div style="
+            background-color: lightblue;
+            width: 100px;        
+            ">100px</div>
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        flex-direction: row;
+        justify-content: space-between;
+        ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+
+            <div style="
+            background-color: lightpink;
+            width: 100px;        
+            ">100px</div>
+
+            <div style="
+            background-color: lightblue;
+            width: 100px;        
+            ">100px</div>
+        </div>
+
+        <div style="
+        margin-top: 30px;
+        display: flex;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+
+            <div style="
+            background-color: lightpink;
+            width: 100px;        
+            ">100px</div>
+
+            <div style="
+            background-color: lightblue;
+            width: 100px;        
+            ">100px</div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        ">
+            <div style="background-color: lightblue;
+            width: 200px;
+            ">200px</div>
+            <div style="background-color: lightpink;
+            width: 75px;
+            ">75px</div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        ">
+            <div style="background-color: lightblue;
+            width: 50px;
+            ">50px</div>
+            <div style="background-color: lightpink;
+            flex: 1;
+            ">flex 1</div>
+            <div style="background-color: lightblue;
+            width: 50px;
+            ">50px</div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        margin-bottom: 20px;
+        ">
+            <div style="background-color: lightblue;
+            ">item 1</div>
+            <div style="background-color: lightpink;
+            ">item 2</div>
+            <div style="background-color: lightblue;
+            ">item 3</div>
+            <div style="background-color: lightpink;
+            ">item 4</div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        margin-bottom: 20px;
+        ">
+            <div style="background-color: lightblue;">item 1</div>
+            <div style="background-color: lightpink;">item 2</div>
+        </div>
+
+        <div class="flexbox">
+            <div class="colom1">
+                <div class="item1">
+                    item 1
+                </div>         
+            </div>
+            <div class="colom2"></div>
+        </div>
+
+        <div class="flexbox2">
+            <div class="colom1-2">
+            </div>
+            <div class="colom2-2">
+                <div class="item1-2">item1</div>
+                <div class="isi-colom">
+                    <div class="item2-2">item2</div>
+                    <div class="item3-2">item3</div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+    </body>
+</html>
