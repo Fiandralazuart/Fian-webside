@@ -1,0 +1,203 @@
+body {
+    padding-top: 80px;
+    background-color: rgb(235, 221, 195);
+}
+.content-1-container {
+    background-color: rgb(236, 230, 223);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0 30px 30px;
+    left: 0;
+    border-radius: 30px;
+    margin: 0 30px 0 30px;
+    margin-bottom: 100px
+
+}
+
+
+.info-container {
+    margin-left: 30px;
+}
+.name-content1 {
+    font-size: 25px;
+}
+.age-content1 {
+    font-size: 20px
+}
+.profile-picture-content1 {
+    height: 180px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 30px
+}
+
+.info-school-content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.school-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.name-school {
+    margin-left: 20px;
+}
+.smp {
+    margin: 0;
+    font-size: 18px;
+}
+.sma {
+    margin: 0;
+    font-size: 18px;
+}
+.logo-content {
+    margin-top: 20px;
+}
+.medsos-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: roboto,arial;
+    font-style: oblique;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.insta-content1 {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    padding-left: 2px; 
+    margin-right: 5px;
+}
+.email-content1 {
+    
+    height: 22px;
+    width: 22px;
+    object-fit: cover;
+    padding-left: 3px; 
+    margin-right: 7px;
+}
+
+.deskription-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 70px;
+    margin-right: 40px;
+    padding: 20px 30px 20px 30px;
+}
+.deskription-container2 {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding: 20px 30px 20px 30px;
+}
+.deskription-content1 {
+    font-size: 20px;
+    font-family: roboto,arial;
+    font-style: oblique;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 999px){
+    .name-content1 {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .name-content1 {
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .age-content1 {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .sma,
+    .smp {
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .school-icon {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .insta-content1 {
+        height: 24px;
+        width: 22px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .email-content1 {
+        height: 20px;
+        width: 21px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .medsos-container {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile-picture-content1 {
+        height: 110px;
+        width: 80px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 999px){
+    .profile-picture-content1 {
+        height: 130px;
+        width: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .deskription-content1 {
+        font-size: 14px;
+       
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .deskription-container2 {
+        margin-left: 0px;
+        padding: 0 10px 0 10px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 999px){
+    .deskription-container2 {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .deskription-container {
+        margin-left: 10px;
+        padding: 10px 10px 10px 10px ;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 999px){
+    .deskription-container {
+        margin-left: 30px;
+    }
+}
