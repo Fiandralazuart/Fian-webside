@@ -1,0 +1,115 @@
+@media screen and (min-width: 500px) and (max-width: 720px) {
+  .header-nav  p{
+    margin-left: 20px;
+  }
+
+  .container1 {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+  }
+  .info-img {
+    width: 450px;
+  }
+  .info-box {
+    margin: 0px;
+  }
+  .info-img-box{
+    order: -1;
+  }
+
+  /* section 2 */
+  .about-info-box {
+    flex-direction: column;
+  }
+  .inner-about {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .fian-img {
+    width: 250px;
+    height: 250px;
+  }
+  .inner-about p{
+    font-size: 16px;
+  }
+  .alamat-about-box p{
+    font-size: 14px;
+  }
+  .about {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  /* section 3 */
+
+  .goals-box {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+  .goals {
+    font-size: 20px;
+  }
+
+  /* section 4 */ 
+  .skill-box {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .header-nav p{
+    margin-left: 15px;
+  }
+
+
+  .info-box {
+    width: auto;
+  }
+  .info-img {
+    width: 400px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .name-desk {
+    font-size: 14px;
+  }
+  .name-title {
+    font-size: 10px;
+  }
+
+  /* section 2 */
+  .inner-about p{
+    font-size: 14px;
+  }
+
+
+  /* section 3 */
+
+  .goals-box {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .services {
+    font-size: 16px;
+  }
+  .desk {
+    font-size: 14px;
+  }
+
+  /* section 4 */ 
+  .skill-box {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .skill2 {
+    margin-bottom: 50px;
+  }
+}
