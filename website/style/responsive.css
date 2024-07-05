@@ -1,4 +1,4 @@
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 100px) and (max-width: 850px) {
   /* header section*/
   header {
     height:90px;
