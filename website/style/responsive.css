@@ -26,15 +26,17 @@
     margin-left: 0;
     margin-top: 50px;
   }
+  .inner-name {
+    font-size: 20px;
   .fian-img {
     width: 250px;
     height: 250px;
   }
   .inner-about p{
-    font-size: 16px;
+    font-size: 14px;
   }
   .alamat-about-box p{
-    font-size: 14px;
+    font-size: 18px;
   }
   .about {
     font-size: 20px;
